@@ -162,7 +162,7 @@ def lsWithFlag(first):
         for f in files:
             fileList=fileList.append(f)
     for fl in fileList:
-        permiss = oct(fl & 0777) 
+        permiss = oct(stat.S_IMODE(os.stat(file).st_mode))
         
     if first == "-s"
        flist.sort(key=lambda fl: fl[7]) 
