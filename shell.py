@@ -2,6 +2,7 @@
 """
 PROGRAM COMMAND LINE INTERPRETER
 YO-SHELL Date: Feb 29,2016
+Program done in python 3.5 using spyder IDE
 This program will implement a subset of the existing 
 bash commands like copy,move,chmod etc that we use
 
